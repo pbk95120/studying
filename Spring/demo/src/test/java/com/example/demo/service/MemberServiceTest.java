@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class MemberServiceTest {
-    MemberService memberService = new MemberService();
+    MemberService memberService = new MemberService(null);
 
     @Test
     void 회원가입() {
